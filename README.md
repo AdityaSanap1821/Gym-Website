@@ -5,20 +5,24 @@ Technologies Used:
 HTML5
 CSS3
 JavaScript
+
 Silent Features :
 Responsive Design.
 Portfolio Template.
 Unique and Dynamic Design.
 Contains HOME, ABOUT, SERVICES, CLASSES, SCHEDULE ,PRICE and many other sections.
+
 Installation
 To run the gym website locally as a single page application, follow these steps:
 
-Clone this repository: git clone https://github.com/mian-ali/GymWebsite.git
+Clone this repository: git clone https://github.com/
+
 Navigate to the project directory: cd GymWebsite
 Open the index.html file in your web browser.
 Usage
-Once the website is running, the sections will be prominently displayed at the top of the page. Users can engage with these section by:
+Once the website is running, the sections will be prominently displayed at the top of the page. 
 
+Users can engage with these section by:
 Reading the compelling headline and understanding the main message or value proposition of the gym.
 Watching an engaging video or viewing an attractive image that showcases the gym's atmosphere and facilities.
 Clicking on the call-to-action buttons to perform desired actions, such as exploring classes, signing up for a membership, or contacting the gym.
