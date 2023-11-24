@@ -23,7 +23,11 @@ Usage
 Once the website is running, the sections will be prominently displayed at the top of the page. 
 
 Users can engage with these section by:
+
 Reading the compelling headline and understanding the main message or value proposition of the gym.
+
 Watching an engaging video or viewing an attractive image that showcases the gym's atmosphere and facilities.
+
 Clicking on the call-to-action buttons to perform desired actions, such as exploring classes, signing up for a membership, or contacting the gym.
+
 Scrolling down to discover more content on the website. The single page application design ensures a seamless and interactive user experience by dynamically loading content without page refreshes, enhancing navigation and responsiveness.
