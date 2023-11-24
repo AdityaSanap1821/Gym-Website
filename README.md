@@ -15,7 +15,7 @@ Contains HOME, ABOUT, SERVICES, CLASSES, SCHEDULE ,PRICE and many other sections
 Installation
 To run the gym website locally as a single page application, follow these steps:
 
-Clone this repository: git clone https://github.com/
+Clone this repository: git clone https://github.com/AdityaSanap1821/Gym-Website.git
 
 Navigate to the project directory: cd GymWebsite
 Open the index.html file in your web browser.
