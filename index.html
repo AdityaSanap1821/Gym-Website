@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WP MINI PROJECT</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts      -->
+
+<header class="header">
+
+    <div class="logo">
+        <h1><i class="fa-solid fa-dumbbell" ></i><span> THE POWER ROOM</span></h1>
+    </div> 
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#features">features</a>
+        <a href="#trainers">trainers</a>
+        <button class="btnLogin-popup" onclick="toggle()">login</button>
+    </nav>
+
+</header>
+
+<!-- header section ends     -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide" style="background: url(images/home-bg-1.jpg) no-repeat;">
+                <div class="content">
+                    <span>be strong, be fit</span>
+                    <h3>Make yourself stronger than your excuses.</h3>
+                    <a href="#" class="btn">get started</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(images/home-bg-2.jpg) no-repeat;">
+                <div class="content">
+                    <span>be strong, be fit</span>
+                    <h3>Make yourself stronger than your excuses.</h3>
+                    <a href="#" class="btn">get started</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(images/home-bg-3.jpg) no-repeat;">
+                <div class="content">
+                    <span>be strong, be fit</span>
+                    <h3>Make yourself stronger than your excuses.</h3>
+                    <a href="#" class="btn">get started</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+
+<!-- login button starts -->
+<section id="popup">
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close-outline" onclick="toggle()"></ion-icon></span>
+
+        <div class="form-box login">
+            <h3>LOGIN</h3>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <input type="email" required>
+                    <label>EMAIL</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input type="password" required>
+                    <label>PASSWORD</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">REMEMBER ME</label>
+                    <a href="#"> FORGOT PASSWORD? </a>
+                </div>
+
+                <button type="submit" class="lbtn">LOGIN</button>
+                
+                <div class="login-register">
+                    <p>DON'T HAVE AN ACCOUNT? <a href="#" class="register-link"> REGISTER</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h3>REGISTRATION</h3>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <input type="text" required>
+                    <label>USERNAME</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <input type="email" required>
+                    <label>EMAIL</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input type="password" required>
+                    <label>PASSWORD</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">I AGREE TO THE TERMS AND CONDITIONS</label>
+                </div>
+
+                <button type="submit" class="lbtn">REGISTER</button>
+                
+                <div class="login-register">
+                    <p>ALREADY HAVE AN ACCOUNT?<a href="#" class="login-link"> LOGIN</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- login button ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="images/about-img.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <span>about us</span>
+        <h3 class="title">Every day is a chance to become better</h3>
+        <p> Welcome To The Power Room. We Are A Fitness And Training
+            Center That Focuses On Pushing You To Your Absolute Limit.</p>
+        <div class="box-container">
+            <div class="box">
+                <h3><i class="fas fa-check"></i>body and mind</h3>
+            </div>
+            <div class="box">
+                <h3><i class="fas fa-check"></i>healthy life</h3>
+            </div>
+            <div class="box">
+                <h3><i class="fas fa-check"></i>strategies</h3>
+            </div>
+            <div class="box">
+                <h3><i class="fas fa-check"></i>workout</h3>
+            </div>
+        </div>
+        <a href="#" class="btn">read more</a>
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- features section starts  -->
+
+<section class="features" id="features">
+
+    <h1 class="heading"> <span>gym features</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/f-img-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <img src="images/icon-1.png" alt="">
+                <h3>body building</h3>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box second">
+            <div class="image">
+                <img src="images/f-img-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <img src="images/icon-2.png" alt="">
+                <h3>gym for men</h3>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/f-img-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <img src="images/icon-3.png" alt="">
+                <h3>gym for women</h3>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- features section ends -->
+
+<!-- trainers section starts  -->
+
+<section class="trainers" id="trainers">
+
+    <h1 class="heading"> <span>expert trainers</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/trainer-1.jpg" alt="">
+            <div class="content">
+                <span>expert trainer</span>
+                <h3>abc</h3>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/trainer-2.jpg" alt="">
+            <div class="content">
+                <span>expert trainer</span>
+                <h3>lmn</h3>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/trainer-3.jpg" alt="">
+            <div class="content">
+                <span>expert trainer</span>
+                <h3>pqr</h3>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/trainer-4.jpg" alt="">
+            <div class="content">
+                <span>expert trainer</span>
+                <h3>xyz</h3>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- trainers section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a class="links" href="#home">home</a>
+            <a class="links" href="#about">about</a>
+            <a class="links" href="#features">features</a>
+            <a class="links" href="#trainers">trainers</a>
+        </div>
+
+        <div class="box">
+            <h3>opening hours</h3>
+            <p> monday : <i> 7:00am - 10:00pm </i> </p>
+            <p> tuesday : <i> 7:00am - 10:00pm </i> </p>
+            <p> wednesday : <i> 7:00am - 10:00pm </i> </p>
+            <p> friday : <i> 7:00am - 10:00pm </i> </p>
+            <p> saturday : <i> 7:00am - 10:00pm </i> </p>
+            <p> sunday : <i> closed </i> </p>
+        </div>
+
+        <div class="box">
+            <h3>contact us</h3>
+            <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+            <p> <i class="fas fa-phone"></i> +111-222-3333 </p>
+            <p> <i class="fas fa-envelope"></i> thepowerroom@gmail.com </p>
+            <p> <i class="fas fa-map"></i> mumbai, india - 400001 </p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-pinterest"></a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script type="text/javascript">
+    function toggle() {
+        var home = document.getElementById('home');
+        home.classList.toggle('active')
+        var about = document.getElementById('about');
+        about.classList.toggle('active')
+    }
+</script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
